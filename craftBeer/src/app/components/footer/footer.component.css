@@ -1,0 +1,11 @@
+.container-footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.container-footer p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #464646
+}

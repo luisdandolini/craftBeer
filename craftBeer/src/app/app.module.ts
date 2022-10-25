@@ -10,6 +10,7 @@ import { BannerComponent } from './layout/banner/banner.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ButtonFormComponent } from './layout/button-form/button-form.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ButtonFormComponent } from './layout/button-form/button-form.component'
     BannerComponent,
     ProductsComponent,
     ContactComponent,
-    ButtonFormComponent
+    ButtonFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
