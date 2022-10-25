@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { isMobile } from 'src/app/utils/mobileCheck.utils';
 
 @Component({
   selector: 'app-products',
@@ -8,6 +9,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ProductsComponent implements OnInit {
 
   @Input() label: string = '';
+
+  isMobile = isMobile();
 
   products: any[] = [
     {
