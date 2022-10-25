@@ -1,0 +1,18 @@
+img {
+  width: 360px;
+  height: 192px;
+}
+
+@media(min-width: 768px) and (max-width: 1440px) {
+  img {
+    width: 768px;
+    height: 352px;
+  }
+}
+
+@media(min-width: 1440px) {
+  img {
+    width: 1440px;
+    height: 352px;
+  }
+}
