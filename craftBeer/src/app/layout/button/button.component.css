@@ -1,0 +1,16 @@
+.button-login {
+  font-family: 'Raleway', sans-serif;
+  font-size: .875rem;
+  font-weight: 600;
+  width: 133px;
+  height: 40px;
+  padding: .75rem 1rem;
+  background-color: #FFF;
+  color: #94940d;
+  border: 1px solid #808019;
+}
+
+.button-login:hover {
+  color: #000;
+  background-color: #ecec28;
+}
