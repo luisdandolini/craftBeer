@@ -10,11 +10,11 @@ export class ProductsComponent implements OnInit {
   @Input() label: string = '';
 
   products: any[] = [
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer7.jpg'
-    // },
+    {
+      name: 'Cerveja1',
+      price: 'R$ 10,00',
+      img: '../../../assets/beer7.jpg'
+    },
     // {
     //   name: 'Cerveja1',
     //   price: 'R$ 10,00',

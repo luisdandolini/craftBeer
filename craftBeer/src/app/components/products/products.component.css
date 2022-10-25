@@ -68,3 +68,28 @@
   cursor: pointer;
   margin-bottom: 1rem;
 }
+
+@media(min-width: 768px) and (max-width: 1440px) {
+  .container-products {
+    max-width: 768px;
+    padding: 1.375rem 2rem;
+  }
+  .content-products img {
+    width: 164px;
+    height: 174px;
+  }
+}
+
+@media(min-width: 1440px) {
+  .container-products {
+    max-width: 1440px;
+    padding: 1.375rem 4rem;
+  }
+  .content-products {
+    gap: .8rem;
+  }
+  .content-products img {
+    width: 176px;
+    height: 174px;
+  }
+}
