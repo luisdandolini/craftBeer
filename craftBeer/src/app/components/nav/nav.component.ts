@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  buttonLabel:string = "Login";
+
   constructor() { }
 
   ngOnInit(): void {
