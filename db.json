@@ -4,43 +4,43 @@
       "id": 1,
       "name": "Pilsen",
       "price": "6,99", 
-      "img": "./assets/beer11.jpg"
+      "img": "beer11.jpg"
     },
     {
       "id": 2,
       "name": "Larger",
       "price": "12,00",
-      "img": "./assets/beer8.jpg"
+      "img": "beer8.jpg"
     },
     {
       "id": 3,
       "name": "Weissbier",
       "price": "8,99",
-      "img": "./assets/beer14.jpg"
+      "img": "beer14.jpg"
     },
     {
       "id": 4,
       "name": "Colorado",
       "price": "9,99",
-      "img": "./assets/beer15.jpg"
+      "img": "beer15.jpg"
     },
     {
       "id": 5,
       "name": "Baden Baden",
       "price": "5,99",
-      "img": "./assets/beer16.jpg"
+      "img": "beer16.jpg"
     },
     {
       "id": 6,
       "name": "Heineken",
       "price": "5,99",
-      "img": "./assets/beer15.jpg"
+      "img": "beer15.jpg"
     },
     {
       "id": 7,
       "name": "Heineken",
       "price": "5,99",
-      "img": "./assets/beer15.jpg"
+      "img": "beer15.jpg"
     }
   ]
 }
