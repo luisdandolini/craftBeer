@@ -30,4 +30,4 @@ json-server --watch db.json
 # Executar o projeto
 npm start
 ```
-![Logo](https://uploaddeimagens.com.br/imagens/EuxryDk)
+![Logo do R]([http://developer.r-project.org/Logo/Rlogo-5.png](https://uploaddeimagens.com.br/images/004/078/261/full/Screenshot_2022-10-26_at_13.36.18.png?1666809407))
