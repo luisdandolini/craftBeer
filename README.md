@@ -33,4 +33,4 @@ O site do CraftBeer é uma aplicação angular construída durante a mentoria Co
  # executar o projeto
  npm start 
  ````
-![Logo do Markdown](img/markdown.png)
+![Logo do Markdown](https://uploaddeimagens.com.br/images/004/078/027/full/Screenshot_2022-10-26_at_13.36.18.png?1666802297)
