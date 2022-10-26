@@ -11,7 +11,7 @@
     <div 
     *ngFor="let product of products; index as i"
     class="products">
-    <div *ngIf="i < 4">
+    <div *ngIf="i <= 6">
       <img src='{{ product.img }}' alt="">
       <h3>{{ product.name }}</h3>
       <p class="price">R$ {{ product.price }}</p>
