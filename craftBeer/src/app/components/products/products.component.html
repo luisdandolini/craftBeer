@@ -8,11 +8,15 @@
   </div>
 
   <div class="content-products">
-    <div *ngFor="let product of products" class="products">
+    <div 
+    *ngFor="let product of products; index as i"
+    class="products">
+    <div *ngIf="i < 4">
       <img src='{{ product.img }}' alt="">
       <h3>{{ product.name }}</h3>
       <p class="price">R$ {{ product.price }}</p>
       <p class="see-product">Ver produto</p>
+    </div>
     </div>
   </div>
 

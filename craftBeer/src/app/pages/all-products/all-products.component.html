@@ -1,1 +1,17 @@
 <app-nav></app-nav>
+
+<section class="container-products">
+  <div>
+    <h2 class="title-products">Todos os produtos</h2>
+    <app-button-form [label]="'Adicionar produto'"></app-button-form>
+  </div>
+  
+  <div class="products">
+    <div *ngFor="let item of products" class="all-products">
+      <img src="{{ item.img }}" alt="Imagem Ilustrativa do Produto">
+      <h3>{{ item.name }}</h3>
+      <p class="price">R${{ item.price }}</p>
+      <p class="product-id">#{{ item.id }}</p>
+    </div>
+  </div>
+</section>

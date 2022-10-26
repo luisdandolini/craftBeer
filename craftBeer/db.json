@@ -35,6 +35,12 @@
       "name": "Heineken",
       "price": "5,99",
       "img": "/assets/beer15.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Heineken",
+      "price": "5,99",
+      "img": "/assets/beer15.jpg"
     }
   ]
 }
