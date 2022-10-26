@@ -33,4 +33,4 @@ O site do CraftBeer é uma aplicação angular construída durante a mentoria Co
  # executar o projeto
  npm start 
  ````
- <img src="https://uploaddeimagens.com.br/imagens/NyNoJBc" width="350" title="hover text">
+![img](https://uploaddeimagens.com.br/imagens/NyNoJBc)
