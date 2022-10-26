@@ -1,6 +1,6 @@
+import { Products } from './../../providers/products';
+import { ProductService } from './../../providers/product.service';
 import { Component, Input, OnInit } from '@angular/core';
-import { isMobile } from 'src/app/utils/mobileCheck.utils';
-
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -10,74 +10,20 @@ export class ProductsComponent implements OnInit {
 
   @Input() label: string = '';
 
-  isMobile = isMobile();
+  constructor(private _productService: ProductService) { }
+  public products: Products[] = []
 
-  products: any[] = [
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer7.jpg'
-    },
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer9.jpg'
-    // },
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer3.jpg'
-    // },
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer4.jpg'
-    // },    
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer5.jpg'
-    // },    
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer6.jpg'
-    },
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer8.jpg'
-    },
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer10.jpg'
-    },
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer11.jpg'
-    },
-    // {
-    //   name: 'Cerveja1',
-    //   price: 'R$ 10,00',
-    //   img: '../../../assets/beer12.jpg'
-    // },
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer13.jpg'
-    },
-    {
-      name: 'Cerveja1',
-      price: 'R$ 10,00',
-      img: '../../../assets/beer14.jpg'
-    },
-  ]
-
-  constructor() { }
 
   ngOnInit(): void {
-  }
+
+    this._productService.getProducts()
+      .subscribe(
+        retorno => {
+          this.products = retorno.map(item => {
+            return new Products(item.id, item.name, item.price, item.img);
+          });
+        }
+      )
+  }  
 
 }
