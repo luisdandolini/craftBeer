@@ -6,8 +6,6 @@
 
 O site do CraftBeer é uma aplicação web construída durante a mentoria Conquiste Sua Vaga. Trata-se de um projeto e-commerce que busca aperfeiçoar as técnicas do framework Angular.
 
-A aplicação consiste na utilização de diversas ferramentas.
-
 # :computer: Tecnologias utilizadas 
 ## Front End
 - JavaScript
